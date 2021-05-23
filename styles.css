@@ -8,6 +8,11 @@ h3 {
     text-align: center;
 }
 
-.date {
-    text-align: right;
+/* For tablet-sized screens and larger ...
+ * Source: https://www.w3schools.com/css/css_rwd_mediaqueries.asp
+ * */
+@media only screen and (min-width: 768px) {
+    .date {
+        text-align: right;
+    }    
 }
